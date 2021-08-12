@@ -20,6 +20,9 @@
     "typescript-formatter": "7.2.2",
     "typescript": "3.5.3"
   },
+  "resolutions": {
+    "**/yargs-parser": "^20.2.9"
+  },
   "scripts": {
     "prepare": "yarn run clean && yarn run build",
     "clean": "rimraf lib",
