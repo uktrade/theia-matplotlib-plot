@@ -21,7 +21,8 @@
     "typescript": "3.5.3"
   },
   "resolutions": {
-    "**/yargs-parser": "^20.2.9"
+    "**/yargs-parser": "^20.2.9",
+    "**/mem": "^9.0.1"
   },
   "scripts": {
     "prepare": "yarn run clean && yarn run build",
