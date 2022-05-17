@@ -24,7 +24,8 @@
     "**/yargs-parser": "^20.2.9",
     "**/mem": "^9.0.1",
     "set-value": "^4.0.1",
-    "**/async": "^2.6.4"
+    "**/async": "^2.6.4",
+    "ansi-regex": "^3.0.0"
   },
   "scripts": {
     "prepare": "yarn run clean && yarn run build",
@@ -38,9 +39,6 @@
     "theiaPlugin": "next"
   },
   "theiaPlugin": {
-    
-    
       "backend": "lib/theia-matplotlib-backend.js"
-    
   }
 }
